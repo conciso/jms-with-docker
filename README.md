@@ -27,7 +27,7 @@ mvn clean install
 ```
 
 ## Run the jms-client ##
-The project is build with the previous maven command and can be run with the following command:
+The jms-client is build with the previous maven command and can be run with the following command:
 ```sh
 cd jms-client/target
 java -jar jms-client.jar
