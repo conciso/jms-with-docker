@@ -29,7 +29,7 @@ public class RestApi {
 	
 	@POST
 	@Consumes(MediaType.TEXT_PLAIN)
-	public Response erzeugeDokumentenContainer(String messageText) {
+	public Response createMessage(String messageText) {
 		try {
 			LOG.info("Received message: '" + messageText + "'");
 			
