@@ -1,4 +1,4 @@
-From jboss/wildfly:10.1.0.Final
+From jboss/wildfly:20.0.1.Final
 
 EXPOSE 8080 9990
 
